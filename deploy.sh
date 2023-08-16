@@ -23,6 +23,6 @@ git commit -m 'deploy'
 #git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git.main
 
 # ig you are deploying to https://<USERNAME>.github.io/<REPO>
-#git push -f git@github.com:YasserToni/pizza.git main:gh-pages
+#git push -f git@github.com:YasserToni/fast-pizza-co.git main:gh-pages
 
 cd -
