@@ -18,7 +18,7 @@ import Applayout from './ui/Applayout';
 const router = createBrowserRouter([
   {
     element: <Applayout />,
-    errorElement: <Error />,
+    // errorElement: <Error />,
     children: [
       {
         path: '/',
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         path: '/menu',
         element: <Menu />,
         loader: menuLoader,
-        errorElement: <Error />,
+        // errorElement: <Error />,
       },
       {
         path: '/cart',
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
         path: '/order/:orderId',
         element: <Order />,
         loader: orderLoader,
-        errorElement: <Error />,
+        // errorElement: <Error />,
         action: UpdateOrderAction,
       },
     ],
